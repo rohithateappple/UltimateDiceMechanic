@@ -1,6 +1,16 @@
 # UltimateDiceMechanic
 Guide Page for Ultimate Dice Mechanic
 
+## Getting Started
+ - Drag the BP_DiceManager into your level.
+ - Tweak settings if needed.
+ - Hit Play.
+ - Press the Space Bar to roll dice.
+ - Press H to toggle 'Spawn at Cursor'.
+
+## Changing Values
+This section focuses mainly on working with the available data tables. How to each die's values and materials.
+
 ## Procedural Die Guide
 
 ### Custom Frames and Faces
