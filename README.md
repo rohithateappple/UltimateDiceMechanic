@@ -32,10 +32,10 @@ So if you have custom materials, assign them here and give them appropriate valu
 ![Prokcedural-Data-table](https://github.com/rohithateappple/UltimateDiceMechanic/assets/131531154/7191ef9d-a43f-4f1b-8c4e-615762bd449d)
 
 Next for the regular data table. It's pretty much the same but with no materials and the order matters here. If you open the BP_RegularDie, you'll
-see the Face Colliders. These are names matched to those in the data table. So see which collider represent with value of your custom die mesh and
+see the Face Colliders. These are name matched to those in the data table. So see which collider represents what value of your custom mesh and
 then assign that value to the appropriate collider in the data table.
 
-
+![Regular-Data-table](https://github.com/rohithateappple/UltimateDiceMechanic/assets/131531154/2052ba0b-4dec-4fdd-96da-f0c4d912cc17)
 
 ## Procedural Die Guide
 
