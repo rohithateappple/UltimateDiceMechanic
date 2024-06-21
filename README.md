@@ -40,5 +40,6 @@ then assign that value to the appropriate collider in the data table.
 ## Procedural Die Guide
 
 ### Custom Frames and Faces
-When modeling the face, be sure to face it in the direction of the up vector in Unreal Engine. Only one face model is required since it will be duplicated inside UE.
-The frame can be modeled in any way, just make sure it's a single whole piece that can accommodate all six faces.
+When modeling the face, be sure to face it in the up direction of Unreal Engine. Only one face is required since it will be duplicated inside UE.
+The frame can be modeled in any way, just make sure it's a single whole piece that can accommodate all six faces. Also, make sure to keep the origins of these
+meshes centered at the cube. This can be done in UE, but it's better to do it in one go.
