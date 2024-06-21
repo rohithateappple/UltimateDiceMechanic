@@ -37,9 +37,11 @@ then assign that value to the appropriate collider in the data table.
 
 ![Regular-Data-table](https://github.com/rohithateappple/UltimateDiceMechanic/assets/131531154/2052ba0b-4dec-4fdd-96da-f0c4d912cc17)
 
-## Procedural Die Guide
+## Procedural Body
 
 ### Custom Frames and Faces
 When modeling the face, be sure to face it in the up direction of Unreal Engine. Only one face is required since it will be duplicated inside UE.
 The frame can be modeled in any way, just make sure it's a single whole piece that can accommodate all six faces. Also, make sure to keep the origins of these
 meshes centered at the cube. This can be done in UE, but it's better to do it in one go.
+
+![origin](https://github.com/rohithateappple/UltimateDiceMechanic/assets/131531154/8719ee66-90f4-4e7a-9edd-a3479b1404cb)
