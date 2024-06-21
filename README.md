@@ -1,6 +1,8 @@
 # UltimateDiceMechanic
 Guide Page for Ultimate Dice Mechanic
 
+![Screenshot 2024-06-21 104641](https://github.com/rohithateappple/UltimateDiceMechanic/assets/131531154/0e7ba709-0730-4d75-a166-e2a5c89a53ed)
+
 ## Getting Started
  - Drag the BP_DiceManager into your level.
  - Tweak settings if needed.
