@@ -7,6 +7,8 @@ Guide Page for Ultimate Dice Mechanic
 IMPORTANT: Since this is an asset pack, the project doesn't come with a config file. So make sure to add a new trace channel called "Dice" in your project settings and set the default to ignore.
 Now open the BP_ProceduralDie, select all "Face" static mesh components, and set their trace channel's Dice to "BLOCK". Do the same for BP_RegularDie, this time all the Face Colliders.
 
+![Trace-Channels](https://github.com/rohithateappple/UltimateDiceMechanic/assets/131531154/c688f811-c3c9-4145-aa5e-9780957968f2)
+
  - Drag the BP_DiceManager into your level.
  - Tweak settings if needed.
  - Hit Play.
