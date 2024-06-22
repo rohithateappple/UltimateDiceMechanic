@@ -37,6 +37,8 @@ then assign that value to the appropriate collider in the data table.
 
 ![Regular-Data-table](https://github.com/rohithateappple/UltimateDiceMechanic/assets/131531154/2052ba0b-4dec-4fdd-96da-f0c4d912cc17)
 
+Once the modifications are done, you can assign the data table in the *Data* section of the BP_DiceManager, or any die blueprint manually.
+
 ## Procedural Body
 
 ### Custom Frames and Faces
