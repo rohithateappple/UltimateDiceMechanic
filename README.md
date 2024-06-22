@@ -61,7 +61,7 @@ Adjusting roll physics is pretty self-explanatory, open your BP_DiceManager and 
 Stationary check refers to the method used to see if a die is stationary. We need this information to efficiently read values. I have strayed away from using a tick method for this because it can be quite expensive, instead, I've used a Timer by Event. There are currently two methods to choose from: DeltaTransform and RigidBodyAwake. 
 
         - Delta Transform: Compares the previous transform to the current. (Faster but can be inaccurate).
-        - RigidBodyAwake: Checks if a rigid is asleep. (Slower but accurate).
+        - RigidBodyAwake: Checks if a rigid body is asleep. (Slower but accurate).
 
 I've also implemented a "Side Check" to see if the die has landed on any of its sides. This is to prevent reading values in non-optimal landing positions. For this, a floor actor is __required__.
 
