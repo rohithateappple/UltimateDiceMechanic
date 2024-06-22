@@ -71,6 +71,8 @@ I've also implemented a "Side Check" to see if the die has landed on any of its 
 
 This one could be named better. What I mean is "throw" the dice from a point. As opposed to the default "rolling" on the ground. Shooting can be done either from an actor of your choice or from the player's location, like a gun. When Shoot from Player is not active, the default is reverted to an object. So, a shooter object is __required__.
 
+![Shoot-from-palyer](https://github.com/rohithateappple/UltimateDiceMechanic/assets/131531154/74962796-6d1b-4762-8302-39880fde3722)
+
 ## Enjoy!
 
 Hope you find my program helpful and have fun rolling some dice!
