@@ -53,3 +53,18 @@ meshes centered at the cube. This can be done in UE, but it's better to do it in
 ## Tweaking Roll Physics
 
 Adjusting roll physics is pretty self-explanatory, open your BP_DiceManager and play around with various settings. There's no "right" setting since it depends heavily on your project. But here's an explanation of each setting.
+
+![Physics-Settings](https://github.com/rohithateappple/UltimateDiceMechanic/assets/131531154/ddf77b2b-f1c4-4736-a729-0ec52a0e2337)
+
+## Stationary Checks
+
+Stationary check refers to the method used to see if a die is stationary. We need this information to efficiently read values. I have strayed away from using a tick method for this because it can be quite expensive, instead, I've used a Timer by Event. There are currently two methods to choose from: DeltaTransform and RigidBodyAwake. 
+
+        - Delta Transform: Compares the previous transform to the current. (Faster but can be inaccurate).
+        - RigidBodyAwake: Checks if a rigid is asleep. (Slower but accurate).
+
+I've also implemented a "Side Check" to see if the die has landed on any of its sides. This is to prevent reading values in non-optimal landing positions. For this, a floor actor is __required__.
+
+
+
+        
