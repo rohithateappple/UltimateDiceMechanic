@@ -47,3 +47,7 @@ The frame can be modeled in any way, just make sure it's a single whole piece th
 meshes centered at the cube. This can be done in UE, but it's better to do it in one go.
 
 ![origin](https://github.com/rohithateappple/UltimateDiceMechanic/assets/131531154/8719ee66-90f4-4e7a-9edd-a3479b1404cb)
+
+## Tweaking Roll Physics
+
+Adjusting roll physics is pretty self-explanatory, open your BP_DiceManager and play around with various settings. There's no "right" setting since it depends heavily on your project. But here's an explanation of each setting.
