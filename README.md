@@ -65,6 +65,6 @@ Stationary check refers to the method used to see if a die is stationary. We nee
 
 I've also implemented a "Side Check" to see if the die has landed on any of its sides. This is to prevent reading values in non-optimal landing positions. For this, a floor actor is __required__.
 
-
+![Side-Check](https://github.com/rohithateappple/UltimateDiceMechanic/assets/131531154/ec7e04d0-f4aa-40d8-9785-757f4494dee4)
 
         
