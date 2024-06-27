@@ -9,6 +9,12 @@ Now open the BP_ProceduralDie, select all "Face" static mesh components, and set
 
 ![Trace-Channels](https://github.com/rohithateappple/UltimateDiceMechanic/assets/131531154/c688f811-c3c9-4145-aa5e-9780957968f2)
 
+Also, ensure the line trace in the __GetDieValue()__ in both the BP_RegularDie and BP_ProceduralDie is set to the Dice channel. This should be on by default on new projects, with no existing trace channels. But, for existing projects, be sure to double-check.
+
+![Screenshot 2024-06-27 181912](https://github.com/rohithateappple/UltimateDiceMechanic/assets/131531154/a063d8f3-b377-485f-8341-f7cc32d14aae)
+
+## Simply Drag and Drop
+
  - Drag the BP_DiceManager into your level.
  - Tweak settings if needed.
  - Hit Play.
